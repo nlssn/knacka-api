@@ -1,0 +1,36 @@
+{
+  "name": "knacka-api",
+  "version": "0.0.1",
+  "description": "API for the Knacka LMS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlssn/knacka-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "lms",
+    "express"
+  ],
+  "author": "Johannes Nilsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nlssn/knacka-api/issues"
+  },
+  "homepage": "https://github.com/nlssn/knacka-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "monk": "^7.3.3",
+    "morgan": "^1.10.0"
+  }
+}
